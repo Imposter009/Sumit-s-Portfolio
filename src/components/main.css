@@ -56,9 +56,9 @@
 @media screen and(max-width:640px) {
     .main .content h1 {
         font-size: 3rem;
-           }
+    }
 
     .main .content p {
         font-size: 1.4rem;
-           }
+    }
 }
