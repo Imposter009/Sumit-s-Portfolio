@@ -19,7 +19,7 @@ const Navbar = () => {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li><Link to="/">HOME</Link></li>
                 <li><Link to="/project">PROJECTS</Link></li>
-                <li><Link to="/contat">CONTACT</Link></li>
+                <li><Link to="/contact">CONTACT</Link></li>
                 <li><Link to="/about">ABOUT</Link></li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
