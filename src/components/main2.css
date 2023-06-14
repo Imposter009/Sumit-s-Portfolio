@@ -1,7 +1,8 @@
-.main2 {
+.main-2 {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 60vhF;
+    height: 100vh;
+    position: relative;
 }
 
 .heading {
@@ -14,7 +15,7 @@
 
 }
 
-.main2::before {
+.main-2::before {
     content: "";
     background: url(" https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
     background-size: cover;
@@ -27,18 +28,17 @@
     z-index: -1;
 }
 
-.main2 h1 {
+.main-2 h1 {
     font-size: 2.5rem;
-
 }
 
-.main2 p {
+.main-2 p {
     font-size: 1.5rem;
     text-align: center;
 }
 
 @media screen and (max-width: 640px) {
-    .main2 h1 {
+    .main-2 h1 {
         font-size: 2rem;
     }
 }

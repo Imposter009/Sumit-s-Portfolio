@@ -6,7 +6,7 @@ import React, { Component } from "react"
 class main2 extends Component {
     render() {
         return (
-            <div className="main2" >
+            <div className="main-2" >
                 <div className="heading">
                     <h1>{this.props.heading}</h1>
                     <p>{this.props.content}</p>
