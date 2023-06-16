@@ -8,6 +8,10 @@
     font-family: 'Outfit', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background: #000;
   }
@@ -19,11 +23,12 @@
     color: aliceblue;
     text-decoration: none;
   }
-  ul{
+
+  ul {
     list-style-type: none;
   }
 
-  .btn{
+  .btn {
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -34,7 +39,7 @@
     cursor: pointer;
   }
 
-  .btn-light{
+  .btn-light {
     padding: 12px 32px;
     font-size: 1rem;
     font-weight: 600;
@@ -44,10 +49,8 @@
     color: #fff;
   }
 
-  .btn:hover{
-    background:rgba(255, 255, 255, 0.2) ;
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.2);
     color: #fff;
     transition: .3s;
   }
-
-  
